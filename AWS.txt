@@ -1,0 +1,401 @@
+30 April--------
+
+RDS--Amazon service for Relational databases activities.
+
+its a fully managed service.
+
+its for Sql -RDBMS -
+
+we can create RDBMS server in AWS and then acccess this from Ec2 machine.
+
+
+RDBMS server(data) ---------------------- RDBMS client-- work-- we - connection
+
+
+
+what RDBMS AWS supports--
+
+PostGresql
+Oracle
+mysql
+MS sql server
+
+what RDS does for us--
+
+server creation 
+
+hardware requirement- storage
+
+back ups of data
+
+maintenanace
+
+monitoring
+
+scaling 
+
+
+demo -- 
+
+RDS service -- it will give me server(instance)--- database 
+
+database server
+
+       database 1
+         tables
+         views
+         stored procedures
+
+       database 2
+
+         tables
+         views
+         stored procedures
+
+
+et-yourname-SG-30April
+      
+ 
+1st May 2026--
+
+DynamoDB in AWS--
+
+DynamoDB is fully managed service of aws .
+
+to handle no-sql database.
+
+this is different than RDBMS(fixed schema)
+
+in Dynamodb-- no fixed schema(means any number of columns we can take.)
+
+
+it stores data in key-value pair format .
+
+here row is known as item
+
+no-sql databases are - mongodb, cosmosdb, dynamodb.
+
+each item has the primary key here known as partition key.
+
+features--
+
+1- auto-scalable
+
+2- key-value pair data format is json.
+
+3- fully managed
+
+4- built in security- encryption+ IAM access control.
+
+DynamoDB is no-sql service in aws
+
+cosmosDB is no-sql service in azure
+
+MongoDB is open source no-sql database.
+
+101 
+    watch -- good   9:42
+
+101 
+
+   mobile-- good    9:43
+
+
+name DOB Mobile Fathersname
+
+veena  11-02
+
+veena  12-03
+
+veena  12-03
+
+
+4th May-- SNS and SQS
+
+SNS- simple notification service
+
+1- its a fully managed service of AWS.
+
+2- this service is for sending notification.
+
+3- it follows concept of publisher and subscriber.
+
+4- core idea--
+
+            publisher sends the message to topic.
+
+            subscriber takes the message from topic.
+
+
+
+5- Subscriber can be multiple.
+
+6- Topic is like a communication channel between publisher and subscribers.
+
+pulishers can be--
+
+  EC2 machines
+  Lembda functions
+  applictaions
+
+Subscribers can be --
+
+  Email
+  SMS
+  Http /Https endpoints
+ AWS SQS
+
+
+How it works--work flow of SNS
+
+       create topic
+       Add subscribers(Email, SMS)
+       Publish message
+       SNS delivers to subscribers
+     
+         
+type of messaging---
+
+ standard- by default
+
+ FIFO -- First in first out.
+
+
+AWS-SQS-- simple queue service.
+
+1- fully managed service by AWS
+
+2- here communication happens Asynchroneous
+
+core idea --
+
+SQS is based on message queue--
+
+ producer sends the messages to queue.
+
+ consumer reads and process them later.
+
+
+protocol in chat systems  for messaging queue is MSMQ - 
+
+
+ Queue-  A temporary storage of messages.
+
+ Messages wait here till processed.
+
+ Prodcuer (sender ) can be --
+
+
+ web apps-
+ Aws lembda
+ Ec2 instances
+
+
+Consumer (receiver) can be
+
+service who process the messages. 
+
+ex- back ground workers
+    microservices.
+
+
+How it works -- work flow-
+
+Producer sends the message to SQS.
+
+Message stores in queue.
+
+consumer Polls the queue
+
+consumer process the message and delete it.
+
+
+Type of SQS queues---
+
+1- standard
+2-FIFO
+
+
+important terms---
+
+Visibility timeout- 
+
+  when consumer pick the message to process - message will be temporary invisible to others.
+
+Dead letter queue-(DLQ)
+
+stores messages fails multiple processing multiple times.
+
+Message retention---
+
+ message can retain in queue (1 minute to 14 days.)
+
+
+demo 1- SNS--- login aws
+
+step 1- create topic
+
+step 2- Access policy of this topic
+
+step 3- select publisher an subscriber(email)
+
+
+step 4- create subscription as email.
+
+step 5- publish message
+
+
+demo 2-SQS
+
+step 1- create SQS
+
+step 2- in own topic create subscription as SQS -- select protocol as SQS and end point(your own SQS)
+
+step 3- publish message by SNS
+
+step 4- go to own SQS - send and receive -- receiver - POll messages .
+
+5th May- Lembda functions in AWS
+
+1-Lembda function is a piece of code which runs on cloud without managing servers.
+
+2-Its a serverless computing service of AWS.
+
+3-AWS manage all servers.
+
+4- so without managing servers , technology etc. we can just write the code and run it this is known as Lembda function.
+
+
+5- Lembda function is triggered(executes) on any particular event.
+
+       ex- 
+
+         1- We want to execute Lembda function when file uploaded in S3 bucket.
+
+         2- Any changes in DynamoDB.
+
+         3- Any request hits API gateway.
+
+         
+         
+6- AWS automatically runs your Lembda function on particular event occurs.
+
+7- No servers to manage
+
+8- Auto scaling.
+
+9- pay as you use.
+
+
+Demo -- when We upload files to S3 bucket then Lembda function should run.
+
+step 1- Login AWS in mobile or News app --> create Lembda function
+
+
+           print("File uploaded to S3 bucket")
+
+       
+step 2-- Create bucket.
+
+
+step 3- Give permission to Lembda for full access of bucket.
+
+step 4- Go to Lembda --> select trigger as S3 bucket.
+
+step 5- code deploy of Lembda.
+
+07 May -- AWS devops --
+
+what is devops -- Dev(developement team)+ops(operation team/production support / deployment team)
+
+before devops -- no any co-oridation b/w dev teams and ops team.
+
+issue-for code integrations and code deployments(code is going to release- live ) 
+
+Agile - flexibility and transperancy
+
+scrum -- break your big project into smaller parts for development
+
+those smaller parts are known as sprints -- collection of user stories (work items)
+
+
+design the page
+
+code for the page
+
+write stored procedure
+
+create tables
+
+
+sprint timelines are 3-4 weeks --
+
+sprint planning meeting--
+
+client side SME (subject matter expert) , PO(Product owner) , SM(Scrum master)
+PM, PL, Developers, Testers etc. 
+
+sprint 1 --2 devlopers, 1 tester, 2 ops team member
+
+6 stories -
+
+3 story each developer will do--
+
+3 story assign to ops team person 
+
+1 dev----- 1 ops team member
+
+
+devops --
+
+client side SME (subject matter expert) , PO(Product owner) , SM(Scrum master)
+PM, PL, Developers, Testers+ ops team
+
+
+devops means--
+
+CI - Continuous integration - integrating your code multiple times in a day.
+
+                      code is integrating to code repository
+
+CD - Continuous deployement -  code is going for release - means adding to cloud -AWS/Azure
+
+
+Automation ----
+
+by creating build pipeline and release pipeline
+
+build pipeline --- code+ automated test cases- 
+
+
+release pipeline - deployment to cloud
+
+
+work flow of devops --
+
+
+local system - do the code /changes -- GIT commands --- push to Github, codeCommit(AWS code repository)- build pipeline (it will compile whole code along with test cases)---
+
+
+Release pipeline -- deployment -- - user can see new changes in website.
+
+
+AWS devops -- 
+
+repository - CodeCommit
+
+Build pipeline-- CodeBuild
+
+Release pipeline-- CodeDeploy
+
+We combined and automate codeBuild and CodeDeploy by CodePipeline
+
+Elastic beanstalk
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+.net 8 --
+
+swagger is not included by default
+
+step 1-
+
+dotnet add package Swashbuckle.AspNetCore
+
+step 2- program.cs
+
+
+builder.Services.AddEndpointsApiExplorer();   // Required
+builder.Services.AddSwaggerGen();    
+
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+
+step 3- directly run swagger on command - dotnet watch run
+
+
+launchsettings.json----
+
+
+"launchBrowser": true,       // ✅ this opens browser
+"launchUrl": "swagger",      // ✅ this opens /swagger page
+
+
+
+
+
+.net 10-
+
+change in launcsettings
+
+then in program.cs
+
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+    
+app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/openapi/v1.json", "v1");
+    });
+
+}
+
+
+-----------------------------------
+
+
+
+.NET VersionC# Version.NET 8C# 12.NET 9C# 13.NET 10✅ C# 14
+
+
+set - c# version explicitly 
+
+<PropertyGroup>  
+<LangVersion>preview</LangVersion>
+</PropertyGroup>
+
+Options:
+
+14.0
+preview
+latestMajor
+
+
+
+
+
