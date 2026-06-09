@@ -1,0 +1,1908 @@
+
+31 March
+https://api.githubcopilot.com ,
+
+https://copilot-proxy.githubusercontent.com,
+
+https://models.github.com/,
+
+https://copilot.githubusercontent.com/
+
+-----------------------------------------------------------------------
+
+TOC- Table of contents-- course
+
+1- AI and Generative AI - 4 days
+
+       1.1 -- Basics of AI and Gen AI
+
+       1.2 -- Prompts engeering.
+
+       1.3 -- Gen AI Tools
+
+       1.4- - AI Ethics and governance.
+
+
+2- AI @ work -- 1 day
+
+     2.1 -- AI with powerpoint (M365)
+
+     2.2 -- AI with MS Word (M365)
+
+3- Source control -- VS code required - 5 days
+
+     3.1 -- Basics of GIT
+
+     3.2 -- Basics of GitHub and GitLab
+
+     3.3 -- Github Co-Pilot- VS code required
+
+
+4- AWS - Amazon web services- 10 days
+
+
+     4.1 - Basics of cloud.
+
+     4.2-  Basics of  AWS
+
+     4.3 - AWS services
+
+     4.4- AWS storage etc.
+
+
+    
+AI- Artificial intelligence--------------
+
+ 
+some points--
+
+       1- Branch of computer science. 
+
+
+                machine can think?
+
+
+      2- machice can think same as humans
+
+
+     3- AI can do facial recognition, translates speech.
+
+        speech recognitions, medical reports diagnosis
+
+        making decicions , anamoly checking.
+
+
+
+    4- to achive above , developers have to trained machine by huge bulk data and historic
+       data. developer creates the models / algorthims . 
+
+
+    5- while creating AI tools - be careful for baised and ethics.
+
+
+     Responsibilities of AI-- 
+
+                    1- should not biased -- ex- Loan approval system should not be biased based on cast, color, location, country etc.
+
+
+                   2- Should be ethical- be genuine and be sensitive while creating AI systems. 
+
+                   
+                   3- should not break individuals privacy.
+
+                   4- should not play with sentiments of some one.
+
+                   5- should not give treatment plans of patients based on above points.
+
+
+Types of AI--
+
+                  strong AI-- cognitive 
+
+                  weak AI - facial recognition, text searches etc.
+
+
+
+Terms related to AI--
+
+ML- Machine learning.-- we feed data, images to machine . based on this machine gives answer.
+
+      initally it may give you wrong answer like a child but slowely slowely by the mistake it learns like a child.
+
+
+DL - Deep learning- more and more complex data it analyse and gives the answer.
+
+       like a brain we have neurons . 
+
+        same way in DL we have nodes  and layers.
+
+
+       
+2 type of data we use in the model(inbuild) of ML-- 
+
+  feed data.
+
+  input data - test data.
+     
+
+3- chat bot -- NLP - Natural language process. 
+
+01 April 2026--
+
+
+bucket -demo
+
+Terms related to AI--
+
+
+ML-- machine learning- its a core of AI system.
+
+to build AI system- we trained machine -- 
+
+how we do it --
+
+we create algorthims 
+we create transformers
+we create models 
+
+we feed data(bulk data, huge data, historic data) into system.
+
+these above 3 things access the data and gives you output.
+
+AI is mostly to analysis part and suggestions based on historic data.
+
+
+ML types --
+
+supervised- haeding or lables 
+
+unsupervised-- analysed data in details
+
+semi-supervised-- mix of both -- sentiment analyses, image analysis
+
+
+use case --   car insurance claim--------
+
+AI system of insurance company -- will check
+
+1- ML -- supervised -- claim is valid, invalid, suspesious
+
+2- ML- unsupervised -- here it will check the frequency of claim from particular person.
+
+                        by this it will identify fraud activity.
+
+3- DL- image analysis- now DL will check the severity of accident images.
+
+4- NLP - it will analyse the claim form or other documents .
+
+
+combined output -- if AI system finds suspisious something so claim will go for manual         intervention.
+
+                -- if AI system finds well then go ahwad for claim process.
+
+
+
+Gen AI -- Generative AI- not only analysis on historic data. but Gen AI can generate new 
+
+content, images , vedios etc. based on data and instruction(prompt)
+
+what Gen AI can do----------
+
+1- Text to text
+2- text to voice
+3- text to image
+4- text to audio
+5- audio to text
+6- image to text
+7- vedio to text
+8- voice to text
+
+
+and many more ----------------------
+
+
+2 ways we work with GEN AI --
+
+
+     1-developer -BUild perspective- create models (LLM- Large language models)- build
+
+                                                     LLM--
+
+                                                         RAG , Agents, Agentic AI  
+
+    2- user - user perspective -- using the inbuild LLMs by prompt.
+
+                                                    user can use - RAG, Agents, Agentic AI
+
+
+
+   GEN AI fundamentals come from --
+
+                                    Advance Deep Learning
+
+                                    Improved machine power
+
+                                    advance level of training data.
+
+                                    
+
+      GEN AI model types ---
+
+          GAN-- Generative adversial networks -
+              
+                    it uses 2 unsupervised ML models-
+
+                                 1st generate new content and 2nd authenticate it                             
+
+
+
+
+      GPT - generative pre-trained transformer-- advance level of NLP -
+
+
+             GPT is build by OpenAI in 2018.
+
+               by using LLMs and transformer algo
+
+        
+
+ how it works--
+ 
+                  model is created by huge data + historic data
+
+                    +
+
+
+                  for latest info it can use api /internet
+
+
+
+NLP -- Natural language processing--- ex- chatbot- 24/7 customer support agent
+
+
+1- it removes computer-human communication gap.
+
+2- it interpret , understand human languages. 
+
+3- it work as text or speech.
+
+
+working of NLP--
+
+
+1- Tokenization -- split the sentences into small chunks as token like - words or phrases.
+
+2- part of speech tagging-- grammer activity like finding noun, verb etc.
+
+3- NER- Named entity recognition-- finding names of people,places ,organization etc.
+
+4- sentiment analyses-  analyse sentiment emotions(happy /sad etc)
+
+5- translation -- translate from one langauge to other.
+
+6- chatbots- interact with human in natural way.
+
+
+Requirement --
+
+1- 10 MCQ
+2- Topic - Angular
+3- 5 -easy, 3 -medium, 2 - complex
+4- output - HTML file .
+5- submit button
+6- student name text box
+7- on submit button -marks should display- each question =1 mark.
+
+03 April-- Gen AI
+
+demo 1-  Agent of MCQ -- input - topic name, level, number of MCQ
+
+demo 2- Agent of content-- input - course name , level of learners (0-2 yrs developer )
+
+demo 3- Agent of content in some format(PDF or PPT)-- input - course name , level of learners (0-2 yrs developer ), format type 
+
+
+------------------------------------------------------------
+
+LLM- Large language models--
+
+LLMs are special type of ML models , mainly based on NLP(natural language processing)
+
+
+chatGPT is the example of LLM
+
+
+LLMs can use --
+
+basic algorthim
+
+transformer algorthims
+
+encoding
+
+decoding
+
+-- it can understand , think, analyse , generate new , can behaves like human brains bcoz it also includes deep learning architecture.
+
+
+RAG- Retreival Augmented generation--
+
+
+RAG use external database known as vector database 
+
+it can also use API
+
+and generate 
+
+
+AI Agent --- work as assistant and here one time we create agent for repeatitive tasks
+
+and use it multiple times . it made people life easy.
+
+
+Agentic AI -- LLM+ tools+ memory capability+ reasoning capability
+
+
+steps for Agentic AI-
+
+data/image as input -- perception
+
+decide what to do now- Reasoning
+
+call API/tools etc -- Action 
+
+format-- Output
+
+Learning-- from feedback it improves 
+
+-----------------------------------------------
+
+Gen AI models -------
+
+
+GPT 3- NLP and NLG
+
+GPT 4-- NLP and NLG
+
+Dell -E3--  NLP
+
+SORA-- added feature -- generate video from text-- 
+
+GEN AI popular TOOLS - Gemini(Google) , GROK(Twitter(X))
+
+--------------------------------------------------------------------
+
+Prompts --------
+
+prompts are specific inputs or instructions given to Gen AI to generate desired output as text, image etc.
+
+
+it removes gap between human and Gen AI system.
+
+it works as bridge between huma and machine.
+
+
+for good prompts we can specify prompt components-
+
+Role
+need
+task
+details
+ask
+format
+and also we can provide some examples to Gen AI
+
+
+Most imp part is ASK-
+
+A-Action -- what tool to be used 
+
+S- Style - What format is required
+
+K- Key details -- more details about requirement.
+
+
+why Prompt engineering required---
+
+
+To get well crafted output.
+
+we know that in all domains we can apply Gen AI 
+
+so for real problem solving we can specify well crafted prompts to get desired output.
+
+by better prompts we get more meaningful outcomes.
+
+for example --
+
+prompt 1-  tell me diet plan for 40 yrs old men.
+
+
+prompt 2- tell me diet plan for 40 yrs old men having high BP and sugar.
+
+
+when we ask using prompts-
+
+try to use -
+
+Explain
+specify
+provide
+
+not just tell me
+
+--------------------------
+
+Core conepts of Prompt engineering--
+
+Prompt components
+
+prompt types
+
+prompt impact
+
+key challenges
+
+
+well structured prompt--
+
+1- clear instructions
+2- Relevent inputs
+3- specify proper inputs
+4- mention desired output format
+
+ex- 
+
+Role -- Developer
+
+Goal--  draft and email to project manager
+
+format- email
+
+constraint- in 100 words
+
+key details- request for promotion from developer to senior developer 
+
+
+some key points---
+
+
+C-concise
+L- logical 
+E- explicit
+A- adaptive
+R- reflective
+
+4 very important S---
+
+simplicity
+structured
+specify
+sensitive
+
+P- Purpose
+R - Role
+O - Output format
+M - mode of interaction
+P - persona
+T - tone
+
+
+Prompts frameworks--
+
+R-Role
+A- Audiance
+C- Context
+E- expectation
+
+T-Task
+A- Audiance
+P- purpose
+
+G-Goal
+R- Role
+A- Audinace
+B- Behaviour
+
+G- Goal
+O- output
+L- language
+D- details
+
+
+ex- explain about marketing
+
+pls rephrase it 
+
+
+I want to start digital marketing business , I am beginer and want to know about
+
+digital marketing in 5 yrs old organization. which can help me to set up my own business.
+
+output format can be email.
+
+
+--------
+
+Taxonomy (classification) of prompt techniques--
+
+
+objectives
+
+techniques
+
+tactics
+
+procedures
+
+category-- basic or advance
+
+prompt techniques--  
+
+zero-shot -- where we do not give any example.-- zero example
+
+one -shot -- where we provide 1 example to guide model.
+
+few shot-  where we give more examples to guide LLM model.
+
+
+06 April 2026--
+
+AI at work--
+
+MS word
+
+Powerpoint
+
+
+demo 1- 
+
+open MS word --> open copilot there
+
+question- create 10 MCQ on "M365 using AI" 
+
+then save this MS word file.
+
+answers should be at last.
+
+
+demo 2- take new MS word file
+
+prompt -- create job description for dotnet developer with 4 yrs of experience in web applications.
+
+
+save MS word file with name JD.docx
+
+
+demo 3- take new MS word file
+
+prompt - create resume of SAP professional with 4 yrs of experience in IT industry.
+
+ here give your name and other details.
+
+save MS word file with name Resume_YourName.docx
+
+
+demo 4- upload both JD.docx and Resume.docx files into copilot and ask if attach resume is fit for this JD.
+
+
+
+demo 5- we receive BRD(business requirement documents) from clients 
+
+FSD -- functional specification document
+
+
+what we have to do as IT professional or developer-
+
+
+
+we have to convert this requirement doc to  scrum user stories with sprints
+
+
+sprint 1 --- 4 user stories-  4 -5 weeks -- Relaese -- deploy your work at client server
+
+sprint 2 --  3 user stories -- 4- 5 weeks 
+
+
+
+demo 6- create 150 word essay on AI
+
+make it shorter
+convert into buttel points
+make it formal
+
+
+demo 7- open ppt
+
+create presentation on climate change(5 slides)
+
+generate slides
+add headings
+
+
+demo 8- MS word
+
+paste in word--
+
+the quik brown fox jumps over teh lazy dog. its very fast and smart.
+
+editor option
+
+-------------------------------------------------------
+
+scenario 1- 
+
+for employee---
+
+1- we have chatbot -- upload PDF -- ask questions and get answers from this pdf.-- agent
+
+2- employee wants to check his/her leave balance and also apply the leaves from this chatbot.
+
+here we have include HR management system(tool) of the organization.
+
+RAG(Retreival augmentated geneartor) or tool augmentated system
+
+3- joining intern
+
+                 multistep planning+ multistep reasining
+
+
+     1- welcome meeting invite-- access outlook
+
+     2- generate email id and credentials -contact IT team- IT team 
+
+     3- provide laptop -  contact inventory- 
+
+     4- assign ID card -- contact admin
+
+     5- Project assign -- contact project -- project manager
+    
+
+    some agents we have to create 
+    some tools we have to call
+    some databases we have to access.
+    some api we have to consume.
+    some LLM we have to use
+    some planning we have to do
+    some reasoning we have to do
+
+
+  all this work can be done by Agentic AI
+
+  Goal is - joining intern --
+
+  Agentic AI= LLMs+ agents+ tools+ Proactiveness+ Reasoning+planning
+
+
+  so Agentic AI is goal oriented
+
+  not only giving you outputs or suggestions 
+
+  perform the action.
+
+  proactive approach
+
+
+task-
+
+pls create your resume according to your skill sets.
+
+by this Resume how will you get shortlisted among 30 employees.
+
+client need only 4 developer to hire.
+
+ Goal: Build an agent that helps write and fix code.
+
+Tasks:
+
+Take user input (e.g., “write a Python function for sorting”)
+
+Add features:
+Code explanation
+Bug detection
+Refactoring suggestions
+
+Tech Stack:
+
+dotnet /SAP
+
+07 April 2026---
+
+
+Create Agent -name - Daily Quiz- Generate MCQ in HTML page. scores should display on submit button along with correct answers at last
+
+input - number of MCQ, topic name and level of questions
+
+
+
+----------------------------------------------------
+
+MS word file--
+
+
+Demo 1- 
+
+Create Agent -name - Daily Quiz- Generate MCQ in HTML page. scores should display on submit button along with correct answers at last
+
+input - number of MCQ, topic name and level of questions
+
+
+Screenshot of Agent definition--
+
+
+screenshot of output--
+
+Demo 2- 
+
+Create Agent -name - PDF-Q & A- 
+
+
+Screenshot of Agent definition--
+
+
+screenshot of output--
+
+
+----------------------------------------------------------------
+software version control--
+
+version control system--
+
+1- whenever we create new software its a 1st version
+
+      s/w -- API, web apps, mobile apps, windows/desktop apps
+
+       
+ and when we update s/w further then we assign next version number.
+
+  Generally version can be broken in 3 or 4 parts.
+
+  Major version
+  Minor version
+  Release version 
+
+
+when we start developement and multiple team members /developers are working.
+
+to maintain code we need to store source code at common location.
+
+so that all team members can access file from common server and work.
+
+VCS - 
+
+1- track the work
+
+2- colloborate in the development team
+
+3- back up and recovery
+
+4- Branching and merging
+
+
+----------------------------------------------------------
+
+
+sample.java---------compiler(javac)---- byte code-----------JVM(JIT)---------m/c code ----OS
+
+sample.cs--------------compiler(CSC)--- MSIL/CIL-----------CLR(JIT)----m/c code ---OS 
+
+       
+         
+devlopement(HCL-widows) -------------------------------------------execution(client-linux)
+
+
+
+types of VCS---
+
+local -- 
+
+
+centralized-- where you have central server-- and your source code resides here.
+
+ex- SVN(subversion) , TFS (Microsoft--Team foundation server-New name --Azure devops server)
+
+dev 1 - check out the file - edit it and then check in the file back.
+
+        build the source code --  
+
+TFS - we do the project management also --ex- scrum management.
+
+sprint managements -- user stories - in progress - -- contact to business analyst
+
+                       day time -- when you reach the office -- 20 min stand up call- 
+managed by team lead --
+
+what we are going to do today
+any roadblocks yesterday
+action plans for removing road blocks.
+
+                       evening scrum call with client 
+
+                      user story -- tester - in progress testing
+
+                      sprint release after 4-5 weeks- 
+
+                       Retrospective meeting
+                                             what went well 
+                                             improvement action plans
+                                             cross team issues solve action points
+                                              R & R -- Reward & Recognition
+
+
+problem-- if server fails so all code gone.
+
+
+de-centralized-GIT  
+
+here every team member having the full copy of source code in their local system
+
+they do changes the files and commit back and push back to code repository
+
+
+1- new file in local system
+
+2- move to staging area 
+
+3- commit to GIT 
+
+4- Push to GIT HUB - Repository 
+
+5- AWS or Azure will pull that code and host 
+
+6- from AWS or Azure your website will run.
+
+
+GIT -- local
+
+it can use remote repository in following 3 -
+
+GIThub
+GITLab
+BitBucket
+
+key concepts of GIT--
+
+1- Repository - storage of your project files.
+
+2- commit- snapshot of changes
+
+3- branch- seperate line of development
+
+4- merge - combining all changes from different branches (explained by diagram)
+
+5- clone- cloning a repository on local system.
+
+
+workflow of GIT---
+
+
+1- Create repo
+
+2- add files
+
+3- commit changes
+
+4- push to remote repository
+
+5- pull respository again to get all changes done by others.
+
+
+Centralized(SVN) vs De-Centralized (GIT)
+
+
+1- workflow--
+
+SVN-- check out -- edit -- check in to central server
+
+GIT -- clone -- edit -- commit(to local)--push to remote(Github/GitLab/BitBucket)
+
+2- 
+
+SVN- centralized VCS- Full source code at server only.
+
+GIT- De-centralized VCS-- Full source code copy at each developer system.
+
+3-
+
+SVN- Internet required 
+
+GIT - Offline work and later sync with remote.
+
+4-
+
+SVN - single point of failure - server 
+
+GIT - Multiple copies available so safe.
+
+-----------------------------------------------
+
+GIT-- Global information tracker---
+
+10 April 2026--
+
+Demo 1- Pull-
+
+step 1- existing repository in Git hub
+
+step 2- open this project folder(stored local at your system) in VS code 
+
+step 3- in github - change something in file of existing repository
+
+step 4- pull the chnages by git pull origin master command
+
+step 5- check in VS code - changes updated in local file in VS code.
+
+
+Demo 2- 
+
+clone exsiting repository to local
+
+add one file in this folder at local
+
+push back this repository with this new file to github.
+
+
+16 April 2026--
+
+GitLab--
+
+
+1- Remote repository -- works with cloud and internet
+
+2- GIT at local works with mainly 3 remote repository--
+    
+               Github, GitLab and BitBucket
+
+3- GitLab= GIT(version control) + team collaboration+ automation(CI/CD) all in one place.
+
+
+4- in GitHub we have to add CI/CD explicitly but in GitLab this feature we get inbuild.
+
+5- work flow-
+
+-- create branch
+
+-- make changes
+
+-- merge request
+
+-- solve conflicts if any(review with your team)
+
+-- merge into main branch
+
+6- CI/CD- inbuild
+
+  in GitLab we can--
+
+    Run tests
+    Build project
+    Deploy website
+
+
+Github 
+
+Good for code hosting and community
+
+CI/CD -- by Github Actions we can perform
+
+Pull request
+
+
+vs GitLab
+
+Good for complete devops solutions(CI/CD)
+
+CI/CD- inbuild
+
+Merge Request
+
+----------------------
+
+Github Co-pilot -- 
+
+helps you in writing the code.
+
+it can give you suggestions while writing the code.
+
+or 
+
+it can generate the code by prompts given in Github copilot chat 
+
+it can ask you to keep this code or reject.
+
+it allows you to edit the prompt.
+
+to use it install extension- Github copilot chat in VS code.
+
+AWS -VM - Virtual machine.
+
+
+
+
+
+-----------------------------------------------------------------
+
+Devops ------> DEvelopment+ operations(deployment teams)
+
+Agile -scrum - sprint planning meeting (Developers+ testers+ BA+ PM+PL+ PO(client)+SM+ SME(client) )
+
+dev 1-- 2 stories
+tester -- 3 story
+
+dev Adan --- dep 1 Aryan- problem NO CI -- 
+
+
+dev+ op -- automation(build and deploy(release))
+
+dev 1-- 2 stories
+tester -- 3 story
+
+dep 1-- 2 story deployment
+
+
+
+GIT ---->GITHUB--devops --(build pipeline )---- release pipeline (Azure/AWS)
+
+--------------------------------------------------------------------------------------------
+
+Cloud -----------
+
+
+ AWS-- Root user -- HCL - who takes the subscription
+
+         iam user -- as we are 
+
+         set up--  MFA 
+
+
+
+AWS is a cloud service provider (CSP) 
+
+Amazon web services.
+
+other popular CSPs are- Azure from Microsoft
+
+                        GCP(google cloud provider) from google  
+
+
+
+Cloud basics-
+
+
+1- Servers at internet -- remote servers
+
+2- we can develop apps and services at cloud.
+
+3- cloud provide storage, backup and recovery of data.
+
+4- we can do analysis of data.
+
+5- streaming of videos and audios.
+
+6- It reduced infrastructure cost.
+
+             the idea is orgnaizations are not purchasing infrastructure for managing our apps and data rathers we are taking space/ machines/servers etc in cloud on rent.
+
+if someone want to use cloud services - subscription has to take.
+
+1- free for 30 days with some storage capacity
+2- pay as you go- cost includes
+
+
+Features of cloud-------
+
+1- Agility -- can share resources among users.
+
+2- High avalability- like gmail. bcoz 3 back-ups are there for our data.
+
+24/7, 365 days . 99.99 % availabiity they claim
+
+Data stored in data centers (Collection of servers)
+
+Hierarchy of data centers is ----
+
+         Region(N .Vergenia- bcoz cost is less here)
+
+         Availability zones 
+
+         Data centers
+
+
+3- **High scalabiity- systems can be scale as per our need .
+
+at the time of high demand we can add more servers and at the time of low demand we can scale down.
+
+4- Multi sharing-- sharing multiple infra among users.
+
+5- maintenance- this is very easy for users bcoz this will take care by CSP.
+
+nothing is installed or hosted in users system,
+
+just use pay as you go subscription.
+
+
+Types of cloud ----------
+
+public cloud -- open for all to use it-- managed by CSP--> maintenance, security
+
+user can run their apps from cloud, user can store data as well.
+
+ex- AWS, Azure, IBM smartcloud etc.
+
+here sharing of infra is possible.
+
+
+Private cloud - This is for confidential work for organizations, Govt agencies like Defence, CBI etc.
+
+CSP create the private cloud means private data center for oragnizations and govt agencies.
+
+
+ex- IBM private cloud, Azure stack.
+
+Private cloud required when high level of security, confidential data , data related to govt defence, data related to national integrity etc needs to store.
+
+
+3- Hybrid cloud-- its a combination of public and private cloud.
+
+                   
+-----------------
+
+Models of cloud-- 3 types of service catagories.
+
+
+IAAS- Infrastructure as a service-- VM(EC2), storage etc.
+
+PAAS- Platform as a service --- something we deploy. webapi we deploy to cloud server
+
+complete platform to run the apps provided by cloud. and then this app is managed by users.
+
+user can add storage , user can add servers etc.
+
+SAAS- software as a service-- cloud provider will manage each and everything. user has to use it - ex- M365 office. 
+
+NAAS- Network as a service  -- network service they provide.
+
+
+Virtual networks
+
+IP addresses
+
+subnets 
+
+routers
+
+internet gateway
+
+
+
+--------------------------------------------------------------------------------
+
+AWS--
+
+EC2 is the service to create VMs in AWS.
+
+ET_4_Ashish_EC2
+
+ET_4_Ashish_EFS
+
+
+
+20 APril-- 
+
+AWS core services --
+
+1- Compute services --
+
+       1.1 - EC2- Elastic compute cloud -- provides VM(virtual machines)
+
+       1.2 -- AWS Lembda -- Run code without managing servers
+
+
+2- Storage services--    
+
+   Amazan S3 - Simple storage services - here we can store images , data etc. 
+
+             ex- S3 Bucket-- host static website -- HTML pages.
+
+
+   EBS - Elastic Block storage-- attached to EC2 machines 
+
+
+
+3- Database servcies - 
+
+ RDS - Relational DB services -- structured
+
+     to manage -- RDBMS- MySql, Oracle , PostgreSQL,  
+
+
+ DynamoDb - No-sql - unstructured  / semi-structured
+
+
+ Azure -- CosmosDb
+
+
+ open source- MongoDB
+
+4- Network services - 
+
+       VPC -- own private network or cloud 
+
+
+       Route -- DNS -- Domain name system
+
+
+5- Security-
+
+          IAM and MFA.
+
+
+
+Imp Concepts ---
+
+
+IAAS - infrastructure as a service
+
+user will manage
+
+OS
+data
+apps
+Runtime and compilers
+
+
+cloud provider will manage 
+
+VM
+servers
+networking
+storage
+
+
+
+
+PAAS-- Platform as a service  -deploye -- web api , web apps
+
+
+user will manage
+
+
+data
+apps 
+
+
+cloud provider will manage 
+
+VM
+servers
+networking
+storage
+runtime and compliers-- meaning s/w
+OS
+
+
+
+
+
+SAAS-- Software as a service -- M365 - 
+
+users will manage nothing
+
+everyhing will manange by Cloud providers.
+
+------------------------------------------------------
+
+
+S3 bucket -- is like a folder in our system.
+
+we can store files , data etc.
+
+also we can host static website and run on browser.
+
+it will give me URL of this static website.
+
+whatever we store in bucket - we call it as object.
+
+By default all objects in bucket ar private.
+
+so to run this we have to make them public.
+
+1- create bucket and upload objects
+
+2- Versioning-- example.txt -- >change and uplaod again same file example.txt
+
+3- Access objects from source bucket to destination bucket in same region(condition is both bucket having version enabled)
+
+22 April ---
+
+VPC-- virtual private cloud.
+
+
+we can create oue own private cloud with in the AWS.
+
+it is like own data center within AWS but virtual.
+
+so here you design your own --
+
+Network settings
+subnets
+IP addresses
+security rules
+
+This is customized isolated space in AWS.
+
+Key components of VPC--
+
+
+1- IP addresses range-(CIDR- classless inter-domain routing)
+
+10.0.0.0/16 --- we give the range like this so that we can have this much resources in VPC
+
+
+2- subnets--
+
+     public subnet-  public IP addrreses + Private IP address-- - connect with internet-- web servers
+
+     private subnet -- EC2--  private IP address -- no direct connection with internet--databases
+
+
+3- Internet gateway-- Allow communication between internet and VPC
+
+ without this even public subnets can not connect with internet.
+
+
+4- Route tables -- controls and manage traffic of URLs
+
+
+
+5- NAT gateway-- connect public subnet with private subnet.
+
+ inaaccessible from outside internet.
+
+6- security-- manage inbound(inside users) and outbound(web ---user) rules.
+
+
+like -- Http -port 80 and Https port 443 allowed .
+
+1- VPC -- created 
+
+2- EC2-- we will choose our own VPC- for Public subnet 
+
+
+demo-- 
+
+we will create EC2 with already installed web server .
+
+
+
+VPC demo steps--
+
+create VPC-
+
+Create EC2 for this own VPC and for public subnet
+
+enabled public IP
+
+create new security group
+
+enabled SSh for MyIP
+
+enabled http for Anywhere Ipv4
+
+
+Create EC2 for this own VPC and for private subnet
+
+disabled public IP
+
+create new security group
+
+enabled SSh for MyIP
+
+
+then 
+
+connect Ec2 public 
+
+run commands for installing web server
+run HTML file on browser by Public IP address : 80
+
+
+23 April--
+
+EBS- Elastic block storage --its AWS service to add hardisk type of space for you virtual machine EC2
+
+Elastic means you can add and delete this space (EBS ) as per your requirement.
+
+This storage also known as volume is permanent storage means persistent.
+
+30 GB by default we get for EC2 - windows  -- mostly used to store OS
+
+8 GB by default we get for EC2- Linux -- mostly used to store OS
+
+It will retain the data irrespective of machine is ON or Switched off like HDD and SSD in our systems.
+
+Here data stored in fixed size chunks also known as blocks.
+
+You can attach and detach EBS from EC2 machines.
+
+Availability zone of EBS should be same as EC2 machine to attach EBS to that particular EC2 machine.
+
+
+2 ways to increase the EBS--
+
+add space in by default EBS during creation of EC2 or by edit option.
+
+create new EBS -- and attach with existing EC2 
+
+
+limitations - One EBS can be attach to only one EC2
+
+              but one EFS can be attach to Multiple Ec2
+
+ if i store one file into EFS this file will be available in all attached Ec2 machines.
+
+
+step 1- create windows EC2 
+
+step 2- 
+
+demo 1-
+
+EBS--EC2-Win-->run with fleet manager--check 30 gb in c drive--> increase 2 gb in existing root voume in storage tab of EC2--> now attach this 2 gb in c drive in EC2 running instance --> search for disk management--> esxiting volume-->extend 
+
+demo 2- 
+
+lab- create new EBS- 
+
+check EC2 AZ->in this AZ we have to create EBS-->create new EBS(volume)->AZ-size 5 gb-->create-->then select this new EBS and Action --> attach-->give EC2 machine+ device name.-->go ro running EC2 -- new unknown volume added -->right click--> initaize disk-->volume right click--> new simple volume.
+
+ EBS can connect to single EC2 but EFS can attach with multiple EC2
+
+24 April--
+
+EFS-- Elastic file system.
+
+This service is complete managed service by AWS
+
+Its a serverless service of AWS.
+
+This allow us to have shared files among multiple EC2 machines.
+
+
+it works as a shared drive.
+
+
+EFS can be attach with multiple Ec2. and shared files with each other.
+
+condition is - EC2 machines should be Linux only.
+
+EFS will not work with windows machines.
+
+
+Demo--
+
+EFS work on NFS protocol-- NFS- Network file system--- we will create security group to enable NFS protocol
+
+EC2 -- seperate SG to enable SSH protocol.-- 
+
+
+2nd SG for EFS- open NFS
+
+
+
+this EFS -- we will attach with 2 EC2 
+
+then in 1 EC2 we will add the file -- this same file should come to 2nd Ec2 also
+
+this is bcoz of EFS .
+
+
+27 April- SNS ans SQS
+
+
+SNS- simple notification services.
+
+used to send messages 
+
+concept is of publisher and subscriber --
+
+publisher will send the message and subscribers will receive the messages 
+
+one publisher can send messages to multiple subscribers.
+
+Here the communication done by topic.
+
+Publisher send messages to Topic and subscriber read the messages from topic.
+
+
+publisher -----Topic ----- subscriber
+
+Publisher can be --
+
+Lembda
+web service (applications)
+Ec2
+
+etc.
+
+subscriber can be --
+
+email
+SMS
+Http/Https
+SQS
+etc.
+
+
+type of messages --
+
+standard - default
+
+FIFO - first in first out- 
+
+
+------------------------------------------------
+
+demo- SNS-
+
+1- create topic
+
+2- access policy 
+
+   decide publisher and subscriber
+
+   SMS -- first add your number and verify it by OTP
+   Then add as subscriber.
+
+   
+3- create SNS.
+
+
+-------------------------------
+
+SQS -- Simple Queue service
+
+it is used to collect messages in queue for wait and send when communication is open.
+
+chat softwares -- MSMQ- protocol -- messaging queue.
+
+
+in AWS we have SQS - protocol to manage queue of messages.
+
+here 
+
+Producer- send message to queue
+
+consumer -- read and process later
+
+its a complete managed service of AWS
+
+Asynchroneous messaging SQS supports 
+
+producer--
+
+web apps
+Ec2 
+lembda
+etc
+
+Consumer--
+
+Microservives 
+
+background services
+
+etc.
+
+work flow-
+
+Producer-- sends message to SQS
+message stored in SQS
+
+Consumer access the queue
+
+consumer process the queue message and deletes.
+
+
+DLQ-- Dead letter queue--
+
+if messages are failed multiple times they stores at DLQ.
+
+messages can be in-visible to producer for some time when consumer is picking and process the Queue messages.
+
+------------------------
+
+demo on SQS
+
+create SQS
+
+go to own craeted topic
+
+create subscription protocol as SQS
+
+go to own SNS - publish messages
+
+
+
+
+
+AWS devops -workflow
+
+LOcal repo -- GIT commands --push remote (Github) -- AWS will take code from github---
+
+AWS CI/CD -- will build pipeline (CodeBuild) --- Release pipeline(codeDeploy) -- AWS server
+
+run.
+
+
+28 April- 
+
+AWS database services--
+
+RDS and DynamoDB
+
+RDS-- Relational database services -SQL - RDBMS
+
+DynamoDB- No-sql
+
+both are completely managed by AWS.
+
+idea is we can create our database in cloud without taking tension of servers , spaces etc.
+
+We just work on tables and data .
+
+
+supported RDBMS- 
+
+PostgresQl
+
+MS Sql server
+
+Oracle
+
+mysql
+
+
+now --
+
+what AWS RDS service can do
+
+server maintanance
+
+storage managment
+
+backups
+
+RDBMS-- tables -- Row and columns -- data
+
+
+demo ---
+
+create RDS service
+
+we will select mysql 
+
+Ec2 machine Linux ---> we will install and connect mysql and start working
+
+
+RDBMS--
+
+          database server-instance-- 
+
+                     databases --
+
+
+
+29 April- DynamoDb and Devops
+
+DynamoDb is fully managed no-sql database service in AWS.
+
+some of the other no -sql databases are-
+
+          MongoDB
+          cosmosDB(Azure)
+
+
+in this we store data in the form of key-value pair(JSON format) and in documents.
+
+no fixed schema(means coloums)
+
+
+101 ali post
+
+102 john post1 post2
+
+here we call rows as items
+----------
+features-
+
+fast
+auto-scalable
+
+backup
+
+high availability 
+
+fully managed by AWS
+
+
+-------------------------------------------
+demo-
+
+dynamoDB--> create table--> insert data--> export to s3--> create bucket or use exsiting bucket-->export --> go to bucket --> data--> action--> query with S3 select--> run select query -- get table data in Json format 
+
+
+AWS devops--------------------
+
+
+CI- contineous integrations- frequently change code and merge
+
+CD- contineous delivery/deployment -- automatic build, test and release
+
+Automation--
+
+Monitoring-
+
+we can create build pipeline and release/deploy pipeline
+
+
+AWS devops services --
+
+CodeCommit (we can create and store code repositories)--Git based source control -- similar to Github
+
+
+codeBuild -- it will create build pipeline includes code and test.
+
+codeDeploy -- Here we deploy applications
+
+codepipeline--- merge all above codebuild and codedeploy and give one pipeline.
+
+workflow-- 
+
+codecommit -- repo
+
+codepipeline -- trigger build
+
+codebuild -- build/compile the code and test cases
+
+codedeploy-- deploy to Ec2/ lembda/ bucket-- static website(html)
+
+cloudwatch-- monitoring
+
+
+demo-- 
+
+codecommit-- create repo-- upload html and buildspec.yaml --> commit.
+
+codeBuild--create project--> source -- codecommit-- repo name-- branch main--> use buildspec file->buildspec.yml--> Artifacts - S3(create bucket in duplicate tab)
+
+
+
+project created -- now on this project -- start build
+
+
+
+code pipeline--- create pipeline -- select source as codecommit-- select own repo
+
+
+
+other build provider--> select codebuild-- give own project name
+
+
+
+deploy-- S3-- create deploy bucket -->select your deploy bucket--> chck extract file option
+
+
+
+click on create pipeline
+
+
+
+now go to deploy bucket and enable static website in properties.
+
+in permission section enamble public access.
+
+ACL -- bucket owner imposed -- enable it
+
+
+
+now check deploy bucket object -- buildsec and text.html files are uploaded there.
+
+
+
+bucket policy of deploy bucket
+
+
+
+now create bucket policy by given link --AWS Policy Generator
+
+
+
+type-- S3 bucket--principle =* --> All actions -->GetObject--> ARN-- copy ARN from bucket.
+
+
+
+arn:aws:s3:::et-ashish-deploybucket/*
+
+
+
+Add statement - geneerate policy --> copy policy in bucket policy page.
+
+
+
+go to static website link and  run--
+
+
+
+go to repo and change html . commit- pipeline will run-- and check the change in browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+  
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
